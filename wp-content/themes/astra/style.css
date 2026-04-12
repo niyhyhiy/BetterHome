@@ -62,3 +62,70 @@ Astra local fonts feature is based on Webfonts Loader by WordPress Themes Team (
 Licensed under MIT ( https://github.com/WPTT/webfont-loader/blob/master/LICENSE )
 
 /* Note: The CSS files are loaded from assets/css/ folder. */
+
+/* Center the whole Contact Us section */
+
+.page-id-38 .elementor-element-2fbab8a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+/* Center the content inside the section */
+.page-id-38 .elementor-element-2fbab8a > .e-con-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+/* Center the Contact Us text block */
+.page-id-38 .elementor-element-2fbab8a .elementor-element-ea912e3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Keep widget content centered without changing widget layout */
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-heading,
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-text-editor,
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-icon-list,
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-social-icons {
+  width: 100%;
+}
+
+.page-id-38
+  .elementor-element-2fbab8a
+  .elementor-widget-heading
+  .elementor-widget-container,
+.page-id-38
+  .elementor-element-2fbab8a
+  .elementor-widget-text-editor
+  .elementor-widget-container,
+.page-id-38
+  .elementor-element-2fbab8a
+  .elementor-widget-icon-list
+  .elementor-widget-container,
+.page-id-38
+  .elementor-element-2fbab8a
+  .elementor-widget-social-icons
+  .elementor-widget-container {
+  text-align: center;
+}
+
+/* Keep any embedded map centered and responsive */
+.page-id-38 .elementor-element-2fbab8a iframe,
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-google_maps,
+.page-id-38 .elementor-element-2fbab8a .elementor-widget-html {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
